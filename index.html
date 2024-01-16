@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel website - Assignment 2</title>
+
+    <!-- font awesome css icon link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+
+        <!-- ==== menu section ==== -->
+        <section class="menu_section">
+            <header class="container">
+                    <nav>
+                        <div class="left_nav">
+                            <a href="/">
+                                <img src="./Images/Suzan Travel.png" alt="Suzan Travel">
+                            </a>
+                        </div>
+                        <div class="right_nav">
+                            <ul class="only_large_device_show">
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Packages</a>
+                                </li>
+                                <li>
+                                    <a href="#">Testimonial</a>
+                                </li>
+                                <li>
+                                    <a href="#">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="mobile_show">
+                                <button>
+                                    <i class="fa-solid fa-bars"></i>
+                                </button>
+                            </div>
+                        </div>    
+                    </nav>
+            </header>
+        </section>
+
+        <!-- ==== Hero section ==== -->
+        <section class="hero_section">
+            <div class="container">
+                <div class="hero_section_inner">
+                    <div class="hero_content">
+                        <h1 class="hero_heading">Explore Your Travel</h1>
+                        <p>
+                            Embark on a journey of discovery, embracing new cultures and creating lasting memories as you navigate through the wonders of travel. Pack your bags, open your heart to the unknown, and let the exploration unfold.
+                        </p>
+                    </div>
+                    <div class="find_now_part">
+                        <form action="#">
+                            <input type="search" name="search_place" id="search_place" placeholder="Where you go">
+
+                            <div class="custom_select">
+                            <select name="when" id="when">
+                                <option value="when">When</option>
+                                <option value="Day">Day</option>
+                                <option value="Night">Night</option>
+                            </select>
+                            <div class="custom_select_icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M19.5 8.25L12 15.75L4.5 8.25" stroke="#131318" stroke-opacity="0.7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                  </svg>
+                            </div>
+                        </div>
+
+                            <div class="custom_select">
+                                <select name="select_type" id="select_type">
+                                    <option value="Select Type">Select Type</option>
+                                    <option value="Type-1">Type-1</option>
+                                    <option value="Type-2">Type-2</option>
+                                    <option value="Type-3">Type-3</option>
+                                </select>
+                                <div class="custom_select_icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M19.5 8.25L12 15.75L4.5 8.25" stroke="#131318" stroke-opacity="0.7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </svg>
+                                </div>
+                            </div>
+                            
+                            <button class="submit_btn" type="submit">
+                                <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                                <span>Find Now</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==== Popular Tour section ==== -->
+        <section>
+            <div class="container section_spacer">
+                <div class="popular_tour_section">
+                    <div class="popular_tour_left">
+                        <h2 class="section_heading">Our Popular Tours</h2>
+                        <p>
+                            Discover the world with our curated selection of popular tours that promise unforgettable experiences. 
+                        </p>
+                        <ul class="list_item_left_space">
+                            <li>Embark on a journey with expert guides, ensuring every moment is filled with insight and excitement. From iconic destinations to hidden gems, our popular tours are crafted to create lasting memories.</li>
+                            <li> Immerse yourself in the beauty of travel and let our carefully designed itineraries turn your dreams into reality. Explore, indulge, and make each adventure uniquely yours with "Our Popular Tours.</li>
+                            <li> Immerse yourself in the beauty of travel and let our carefully designed itineraries turn your dreams into reality. Explore, indulge, and make each adventure uniquely yours with "Our Popular Tours.</li>
+                        </ul>
+                        <p>
+                            Whether you seek the thrill of adventure, the tranquility of nature, or the cultural richness of historical landmarks.
+                        </p>
+                       <div>
+                         <a href="#" class="btn">Read More</a>
+                       </div>
+                    </div>
+                    <div class="popular_tour_right">
+                        <img src="./Images/Rectangle 4.png" alt="Mountain">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==== Choose Destination section ==== -->
+        <section>
+            <div class="container section_spacer">
+                <div class="choose_destination_section">
+                    <div class="choose_destination_content">
+                        <h2 class="section_heading">
+                            Choose Your Destination
+                        </h2>
+                        <p>
+                            Indulge your wanderlust and choose from a array of captivating destinations. Whether it's the sun-kissed beaches.
+                        </p>
+                    </div>
+                    <div class="destination_places">
+                        <div class="first_two_col_des">
+                            <div class="img_with_text_box">
+                                <img src="./Images/Rectangle 5.png" alt="Maldive">
+                                <div class="img_content">
+                                    <h4 class="section_sub_heading">Maldive</h4>
+                                </div>
+                            </div>
+                            <div class="img_with_text_box">
+                                <img src="./Images/Rectangle 8.png" alt="Indonesia">
+                                <div class="img_content">
+                                    <h4 class="section_sub_heading">Indonesia</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="second_three_col_des">
+                            <div class="img_with_text_box">
+                                <img src="./Images/Rectangle 6.png" alt="Srilanka">
+                                <div class="img_content">
+                                    <h4 class="section_sub_heading">Srilanka</h4>
+                                </div>
+                            </div>
+                            <div class="img_with_text_box">
+                                <img src="./Images/Rectangle 7.png" alt="North America">
+                                <div class="img_content">
+                                    <h4 class="section_sub_heading">North America</h4>
+                                </div>
+                            </div>
+                            <div class="img_with_text_box">
+                                <img src="./Images/Rectangle 9.png" alt="Kashmir">
+                                <div class="img_content">
+                                    <h4 class="section_sub_heading">Kashmir</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="third_two_col_des">
+                            <div class="img_with_text_box one_third">
+                                <img src="./Images/Rectangle 11.png" alt="Bangledesh">
+                                <div class="img_content">
+                                    <h4 class="section_sub_heading">Bangledesh</h4>
+                                </div>
+                            </div>
+                            <div class="img_with_text_box two_third">
+                                <img src="./Images/Rectangle 10.png" alt="Bandarban">
+                                <div class="img_content">
+                                    <h4 class="section_sub_heading">Bandarban</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==== Why Choose Us section ==== -->
+        <section>
+            <div class="container section_spacer">
+                <div class="why_choose_section">
+                    <div class="why_choose_section_content">
+                        <h2 class="section_heading">
+                            Why Choose Us
+                        </h2>
+                        <p>
+                          Elevate your travel experience with our commitment to unparalleled service, seamless planning, and a passion for crafting moments that linger in your heart.
+                        </p>
+                    </div>
+
+                    <div class="why_choose_three_boxes">
+                        <div class="choose_box">
+                           <img src="./Images/hotel.png" alt="Hotel">
+                           <h4 class="section_sub_heading">Handpicked Hotels</h4>
+                           <p>Unwind in luxury and comfort with our meticulously chosen hotels, ensuring an exquisite stay that complements the charm of your journey.</p>
+                        </div>
+
+                        <div class="choose_box choose_box_two">
+                            <img src="./Images/map.png" alt="Hotel">
+                            <h4 class="section_sub_heading">World Class Service</h4>
+                            <p> Experience excellence at every step with our world-class service, dedicated to turning your travel aspirations into seamless and memorable adventures.</p>
+                         </div>
+
+                         <div class="choose_box">
+                            <img src="./Images/price-tag.png" alt="price-tag">
+                            <h4 class="section_sub_heading">Best Price Guarantee</h4>
+                            <p> Enjoy peace of mind as you book with confidence, knowing that our commitment to a best price guarantee</p>
+                         </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ==== Deals & Discounts section ==== -->
+        <section>
+            <div class="container section_spacer">
+                <div class="deals_discounts_section">
+                    <div class="deals_discounts_section_content">
+                        <h2 class="section_heading">
+                            Deals & Discounts
+                        </h2>
+                        <p>
+                            Experience unbeatable value with our limited-time deals and discounts – your wallet will thank you!
+                        </p>
+                    </div>
+                <div class="deals_discount_details_box">
+                    <div class="single_deals_discounts single_deals_discounts_first">
+                        <div class="single_deals_discounts_content_box">
+                            <div class="icons_box">
+                                <div>
+                                    <span><i class="fa-solid fa-clock"></i></span>
+                                    <p>7 Day / 6 Night</p>
+                                </div>
+                                <div>
+                                    <span><i class="fa-solid fa-users"></i></span>
+                                    <p>Max : 10</p>
+                                </div>
+                                <div>
+                                    <span><i class="fa-solid fa-location-pin"></i></span>
+                                    <p>Malaysia</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="section_sub_heading">
+                                    Tour To Satorini
+                                </h4>
+                            </div>
+                            <div>
+                                <p>
+                                    Embark on a captivating journey to Santorini, where azure waters and breathtaking landscapes await your exploration.
+"Indulge in the charm of Santorini with our curated tours, creating memories against the backdrop of sunsets and white-washed beauty.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="money_txt">
+                                    Price: $1300-$1500
+                                </h4>
+                            </div>
+                            <div>
+                                <a href="#" class="btn">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single_deals_discounts single_deals_discounts_second">
+                        <div class="single_deals_discounts_content_box">
+                            <div class="icons_box">
+                                <div>
+                                    <span><i class="fa-solid fa-clock"></i></span>
+                                    <p>7 Day / 6 Night</p>
+                                </div>
+                                <div>
+                                    <span><i class="fa-solid fa-users"></i></span>
+                                    <p>Max : 10</p>
+                                </div>
+                                <div>
+                                    <span><i class="fa-solid fa-location-pin"></i></span>
+                                    <p>Malaysia</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="section_sub_heading">
+                                    Tour To Satorini
+                                </h4>
+                            </div>
+                            <div>
+                                <p>
+                                    Embark on a captivating journey to Santorini, where azure waters and breathtaking landscapes await your exploration.
+"Indulge in the charm of Santorini with our curated tours, creating memories against the backdrop of sunsets and white-washed beauty.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="money_txt">
+                                    Price: $1300-$1500
+                                </h4>
+                            </div>
+                            <div>
+                                <a href="#" class="btn">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="single_deals_discounts single_deals_discounts_first">
+                        <div class="single_deals_discounts_content_box">
+                            <div class="icons_box">
+                                <div>
+                                    <span><i class="fa-solid fa-clock"></i></span>
+                                    <p>7 Day / 6 Night</p>
+                                </div>
+                                <div>
+                                    <span><i class="fa-solid fa-users"></i></span>
+                                    <p>Max : 10</p>
+                                </div>
+                                <div>
+                                    <span><i class="fa-solid fa-location-pin"></i></span>
+                                    <p>Malaysia</p>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="section_sub_heading">
+                                    Tour To Satorini
+                                </h4>
+                            </div>
+                            <div>
+                                <p>
+                                    Embark on a captivating journey to Santorini, where azure waters and breathtaking landscapes await your exploration.
+"Indulge in the charm of Santorini with our curated tours, creating memories against the backdrop of sunsets and white-washed beauty.
+                                </p>
+                            </div>
+                            <div>
+                                <h4 class="money_txt">
+                                    Price: $1300-$1500
+                                </h4>
+                            </div>
+                            <div>
+                                <a href="#" class="btn">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="btn_center">
+                        <a href="#" class="btn">See All Packages</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==== Text with video section ==== -->
+        <section>
+            <div class="container section_spacer">
+                <div class="txt_with_video_section">
+                    <div class="txt_with_video_left">
+                        <h2 class="section_heading">
+                            A Simple Perfect Place To Get Lost
+                        </h2>
+                        <p>
+                            Discover the allure of simplicity in our hidden haven—a perfect place to get lost.
+                        </p>
+                        <ul class="list_item_left_space">
+                            <li>
+                                With every step, find solace in the uncharted corners of our oasis, where the beauty of being lost is the simplest way to truly find yourself.
+                            </li>
+                            <li>Amidst the quiet corners and meandering paths, embrace the art of getting lost.</li>
+                        </ul>
+                        <div>
+                            <a href="#" class="btn">See More</a>
+                        </div>
+                    </div>
+                    <div class="txt_with_video_right">
+                        <div class="video-responsive">
+                            <video src="./hill.mp4" autoplay muted controls></video>  
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==== Our blog section ==== -->
+        <section>
+            <div class="container section_spacer">
+                <div class="blog_section">
+                    <div class="blog_section_content">
+                        <h2 class="section_heading">
+                            Our Popular Blogs
+                        </h2>
+                        <p>
+                            Dive into our treasure trove of knowledge and insights with our popular blogs – to enriching perspectives and valuable information.
+                        </p>
+                    </div>
+                    <div class="all_blogs">
+                        <div class="single_blog">
+                            <img src="./Images/dubai.png" alt="Blog image">
+                            <a href="#">
+                                <h4 class="section_sub_heading">
+                                    Wandering through Time: Unveiling the Historical Marvels of Europe
+                                </h4>
+                                <p>
+                                    Immerse yourself in the captivating tales of Europe's ancient wonders. From the grandeur of Rome to the medieval charm of Prague, join us on a journey through time as we explore the rich history etched into the landscapes of these storied destinations.
+                                </p>
+                            </a>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+
+                        <div class="single_blog">
+                            <img src="./Images/malaysia.png" alt="Blog image">
+                            <a href="#">
+                                <h4 class="section_sub_heading">
+                                    Beyond the Brochures: Hidden Gems of Southeast Asia
+                                </h4>
+                                <p>
+                                    Step off the beaten path and discover the lesser-known treasures of Southeast Asia. Venture into secluded paradises, taste local delights in bustling markets, and encounter the warmth of diverse cultures. Our guide unveils the secrets that await those willing to explore beyond the typical.
+                                </p>
+                            </a>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+
+                        <div class="single_blog">
+                            <img src="./Images/dubai.png" alt="Blog image">
+                            <a href="#">
+                                <h4 class="section_sub_heading">
+                                    Epic Road Trip Chronicles: From Coast to Coast in North America
+                                </h4>
+                                <p>
+                                    Buckle up for an adventure of a lifetime as we share the exhilarating tales of a cross-country road trip through North America. From the scenic Pacific Coast Highway to the iconic Route 66, follow our journey filled with breathtaking landscapes, quirky roadside attractions.
+                                </p>
+                            </a>
+                            <a href="#" class="btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- ==== Newsletter section ==== -->
+         <section>
+            <div class="container section_spacer">
+                <div class="newsletter_section">
+                    <div class="newsletter_section_left">
+                        <div class="newsletter_content">
+                            <h4 class="section_sub_heading">
+                                Newsletter
+                            </h4>
+                            <p>
+                                Get your daily dose of travel news & tips. Sign up today!
+                            </p>
+                        </div>
+                        
+                        <div class="newsletter_field">
+                           <form action="#">
+                            <input type="text" name="name" id="name" placeholder="Enter your name">
+                            <input type="email" name="email" id="email" placeholder="Enter your email">
+                            <input type="submit" class="btn" value="Subscribe">
+                           </form>
+                        </div>
+                    </div>
+                    <div class="newsletter_section_right">
+                        <img src="./images/newsletter.png" alt="Newsletter">
+                        <div class="newsletter_img_content">
+                            <p>suzantravel.com</p>
+                            <h4 class="section_sub_heading">
+                                Save up to 70%
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- ==== Footer section ==== -->
+         <section class="footer_section section_spacer">
+            <footer class="container">
+                <div class="footer_inner">
+                    <a href="/">
+                        <img src="./Images/Suzan Travel.png" alt="Suzan Travel">
+                    </a>
+                    <p>
+                        Embark on a journey of discovery, embracing new cultures and creating lasting memories as you navigate through the wonders of travel.
+                    </p>
+                    <div class="social_icons">
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </footer>
+         </section>
+
+         <div class="copyright">
+            <small>2024, All Rights Reserved.</small>
+         </div>
+
+    </main>
+</body>
+</html>
